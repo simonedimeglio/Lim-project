@@ -1,0 +1,80 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+.container {          /*BACKGROUND*/
+  width: 1080px;
+  height: 755px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+header > img {        /*LOGO*/
+ width: 220px;
+ display:block;
+ margin:0px auto;
+ text-align:center;
+ padding-top: 95px;
+}
+
+header > h1 {         /*TITLE*/
+  color: lime;
+  text-align: center;
+  margin: 0px;
+  font-size: 26px;
+}
+
+#navigation-bar {
+  background-color: lime;
+  text-align: center;
+  width: 80%;
+  margin:0 auto;
+}
+
+#navigation-bar div {
+  padding: 10px;
+  margin-right:0 auto;
+}
+
+main {
+    margin-left: 110px;
+}
+
+.object * {
+  color: white;
+  margin: 0px;
+  display: inline-block;
+}
+
+.address {
+  margin: 5px;
+}
+
+#charge-1 {
+  width: 320px;
+  height: 30px;
+  background: rgb(255, 236, 139);
+  border-radius: 5px;
+  margin-bottom: 25px;
+}           /*CHARGE BAR 1 */
+
+#charge-2 {
+  width: 530px;
+  height: 30px;
+  background: rgb(50, 205, 50);
+  border-radius: 5px;
+  margin-bottom: 25px;
+}           /*CHARGE BAR 2 */
+
+#charge-3 {             /*CHARGE BAR 3 */
+  width: 120px;
+  height: 30px;
+  background: rgb(205, 79, 57);
+  border-radius: 5px;
+}
